@@ -8,4 +8,6 @@ for url in urls:
         viewss=r.select_one('meta[itemprop="interactionCount"][content]')['content']
         data_viewsd={viewsd}
         data_viewss={viewss}
-        
+        return data_viewss
+    
+    
