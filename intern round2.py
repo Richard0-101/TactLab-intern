@@ -9,5 +9,6 @@ for url in urls:
         data_viewsd={viewsd}
         data_viewss={viewss}
         return data_viewss
-    
+    if __name__=="__main__":
+        
     
