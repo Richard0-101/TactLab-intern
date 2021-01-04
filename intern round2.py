@@ -10,5 +10,6 @@ for url in urls:
         data_viewss={viewss}
         return data_viewss
     if __name__=="__main__":
+        data_views = scrape_info(url)
         
     
