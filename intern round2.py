@@ -12,6 +12,9 @@ for url in urls:
         views1=r.select_one('meta[itemprop="interactionCount"][content]')['content']
         data1={'title':title1, 'views':views1}
         
+        client = InfluxDBClient('localhost', 8086, 'root', 'root', 'songcompare')
+        
+
         
 
 
