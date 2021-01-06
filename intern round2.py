@@ -10,6 +10,8 @@ for url in urls:
         r = BeautifulSoup(requests.get(url).text, "html.parser")
         title1=r.select_one('meta[itemprop="name"][content]')['content']
         views1=r.select_one('meta[itemprop="interactionCount"][content]')['content']
+        data1={'title':title1, 'views':views1}
+        
         
 
 
