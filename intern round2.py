@@ -15,8 +15,10 @@ for url in urls:
         client = InfluxDBClient('localhost', 8086, 'root', 'root', 'songcompare')
         
 
-        
-
+        json_body = [
+            {
+                "measurement":"data",
+                
 
 
 
