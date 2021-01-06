@@ -20,8 +20,10 @@ for url in urls:
                 "measurement":"data",
                 "tags": {
                     "title"  : title1,
+                    "url"    : url
+                },
+                "fields": {
                    
-
 
 
 
