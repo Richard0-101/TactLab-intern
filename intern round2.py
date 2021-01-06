@@ -9,6 +9,7 @@ for url in urls:
     def scrape_info(url):
         r = BeautifulSoup(requests.get(url).text, "html.parser")
         title1=r.select_one('meta[itemprop="name"][content]')['content']
+        views1=r.select_one('meta[itemprop="interactionCount"][content]')['content']
         
 
 
