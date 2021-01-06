@@ -27,7 +27,11 @@ for url in urls:
                 }
             }
         ]
+        client.write_points(json_body)
+        print("Inserted successfully")
         
+    if __name__=="__main__":
+        scrape_info(url)
 
 
 
