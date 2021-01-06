@@ -18,7 +18,10 @@ for url in urls:
         json_body = [
             {
                 "measurement":"data",
-                
+                "tags": {
+                    "title"  : title1,
+                   
+
 
 
 
