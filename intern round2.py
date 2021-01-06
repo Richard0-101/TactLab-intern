@@ -23,7 +23,12 @@ for url in urls:
                     "url"    : url
                 },
                 "fields": {
-                   
+                    "Views": views1
+                }
+            }
+        ]
+        
+
 
 
 
